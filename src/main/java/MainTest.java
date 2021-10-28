@@ -96,14 +96,14 @@ public class MainTest {
 
         ////*********************************************Checkboxes***********************************************/********
 
-        driver.navigate().to("https://the-internet.herokuapp.com/checkboxes");
-
-        WebElement check1 = driver.findElement(By.xpath("//*[@id=\"checkboxes\"]/input[1]"));
-        check1.click();
-        WebElement check2 = driver.findElement(By.xpath("//*[@id=\"checkboxes\"]/input[2]"));
-   //     if (check2.isSelected()) {
-         //       check2.click();
-//             }
+//        driver.navigate().to("https://the-internet.herokuapp.com/checkboxes");
+//
+//        WebElement check1 = driver.findElement(By.xpath("//*[@id=\"checkboxes\"]/input[1]"));
+//        check1.click();
+//        WebElement check2 = driver.findElement(By.xpath("//*[@id=\"checkboxes\"]/input[2]"));
+//   //     if (check2.isSelected()) {
+//         //       check2.click();
+////             }
 
 
             ////*********************************************WebTables*******************************************************
