@@ -179,16 +179,16 @@ public class MainTest {
 //        Assert.assertEquals("Hello! I am an alert box!",alertText);
 
             ////*********************************************Actions (Prompt)*******************************************************
-//        driver.navigate().to("http://cookbook.seleniumacademy.com/Alerts.html");
-//        WebElement promptbtn =driver.findElement(By.id("prompt"));
-//        promptbtn.click();
-//
-//        Alert alert1=driver.switchTo().alert();
-//        alert1.sendKeys("mohamed samir");
-//        alert1.accept();
-//        WebElement msg=driver.findElement(By.id("prompt_demo"));
-//
-//        Assert.assertEquals("Hello mohamed samir! How are you today?",msg.getText());
+        driver.navigate().to("http://cookbook.seleniumacademy.com/Alerts.html");
+        WebElement promptbtn =driver.findElement(By.id("prompt"));
+        promptbtn.click();
+
+        Alert alert1=driver.switchTo().alert();
+        alert1.sendKeys("mohamed samir");
+        alert1.accept();
+        WebElement msg=driver.findElement(By.id("prompt_demo"));
+
+        Assert.assertEquals("Hello mohamed samir! How are you today?",msg.getText());
 
 
             ////*********************************************Selenium4 Relative locators*******************************************************
